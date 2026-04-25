@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #111827;
+  color: white;
+  padding: 15px 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 30px;
+  background: #1f2937;
+  color: white;
+}
+
+#searchBar {
+  margin-top: 15px;
+  padding: 12px;
+  width: 50%;
+  border-radius: 6px;
+  border: none;
+}
+
+/* MAIN */
+main {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* FORM */
+.form-section {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-section input,
+.form-section textarea,
+.form-section select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #10b981;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #059669;
+}
+
+/* REQUESTS */
+.requests-section {
+  flex: 2;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.request-card {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.request-card h3 {
+  margin: 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #e5e7eb;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.delete-btn {
+  margin-top: 10px;
+  background: red;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #111827;
+  color: white;
+}
