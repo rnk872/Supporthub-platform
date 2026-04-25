@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Community Support Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1>SupportHub</h1>
+  <ul>
+    <li>Home</li>
+    <li>Requests</li>
+    <li>Donate</li>
+    <li>About</li>
+  </ul>
+</nav>
+
+<!-- HEADER -->
+<header>
+  <h2>Help People. Build Trust. Change Lives.</h2>
+  <input type="text" id="searchBar" placeholder="Search requests...">
+</header>
+
+<!-- MAIN -->
+<main>
+
+  <!-- FORM -->
+  <section class="form-section">
+    <h2>Create Request</h2>
+
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="text" id="title" placeholder="Request Title">
+    
+    <select id="category">
+      <option value="">Select Category</option>
+      <option>Medical</option>
+      <option>Education</option>
+      <option>Food</option>
+      <option>Emergency</option>
+    </select>
+
+    <textarea id="description" placeholder="Describe the situation..."></textarea>
+
+    <button onclick="addRequest()">Submit Request</button>
+  </section>
+
+  <!-- REQUESTS -->
+  <section class="requests-section">
+    <h2>Live Requests</h2>
+    <div id="requestsContainer"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 SupportHub | Built for real impact</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
